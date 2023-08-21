@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="Images/Header.jpg" alt="Title" width="750" height="150">
+    <img src="Images/Header.jpg" alt="Title" width="850" height="250">
 </div>
 <br>
 
@@ -89,15 +89,15 @@ For the vaccination data, the below forest plots offer a visual representation o
 
 🏁 **Implications**: In our extensive analysis of COVID-19 dynamics and vaccination impact, several pivotal insights surfaced:
 
-i) Testing remains paramount in understanding the pandemic's trajectory, with a direct correlation seen across essential metrics.
+i) **Testing** remains **paramount in understanding the pandemic's trajectory**, with a direct correlation seen across essential metrics.
 
-ii) Vaccination emerged as a crucial mitigator, with data overwhelmingly supporting its effectiveness in curbing the virus's devastation.
+ii) **Vaccination** emerged as a **crucial mitigator**, with data overwhelmingly supporting its effectiveness in curbing the virus's devastation.
 
-iii) Mobility, particularly in public spaces, significantly influences the spread, suggesting the importance of monitoring and managing public movements.
+iii) **Mobility**, particularly in public spaces, **significantly influences the spread**, suggesting the importance of monitoring and managing public movements.
 
-iv) Stringency measures by governments, though effective to an extent, yield optimal results when synergized with a robust vaccination drive.
+iv) **Stringency measures** by governments, though effective to an extent, **yield optimal results when synergized with a robust vaccination drive**.
 
-v) Weather, intriguingly, has its indirect yet noteworthy influence, with warmer climates showing a promising correlation with diminished infections.
+v) **Weather**, intriguingly, has its indirect yet noteworthy influence, with **warmer climates showing a promising correlation with diminished infections**.
 
 In essence, the investigation underscores the importance of a multi-pronged approach to Covid-19 control, where testing, vaccination, controlled mobility, stringent government measures, and an understanding of weather interplays are vital in steering us towards a safer tomorrow.
 
@@ -123,11 +123,12 @@ Each of these files serves a unique purpose in unravelling the intricate dynamic
 
 👥 **Authors**: 
 
-Vinothini Balasubramani/22202390 (vinothinibs09@gmail.com)
+**Vinothini Balasubramani/22202390** (mailto:vinothinibs09@gmail.com)
 
-Sreelekshmi Girijadevi Purushothaman/22200034 (sreelekshmi97@gmail.com)
+**Sreelekshmi Girijadevi Purushothaman/22200034** (mailto:sreelekshmi97@gmail.com)
 
-📚 **References**:  
+📚 **References**:
+
 Key academic sources and datasets used in the analysis are referenced for further exploration.
 1. Richard A. Johnson and Dean W. Wichern. [Multivariate Linear Regression Models in Applied Multivariate Statistical Analysis](https://ostad.hormozgan.ac.ir/ostad/UploadedFiles/863845/97050509-3761826667770356.pdf). (6th ed.) 360-418 Pearson Prentice Hall,2007.
 
