@@ -1,3 +1,7 @@
+<div align="center">
+    <img src="images/Header.jpg" alt="Title" width="300">
+</div>
+
 In the tumultuous climate of the **COVID-19** pandemic, nations globally faced unparalleled public health trials, with the UK standing out as one of the most significantly affected. This project seeks to deeply investigate the palpable effects of the vaccination campaign on COVID-19 metrics like infections, hospitalizations, and mortality rates in the UK. Through multivariate linear regression analyses of data spanning pre-vaccination and vaccination periods, we aim to unravel the real-world efficacy of vaccines while accounting for other external influences like human mobility and weather patterns. Our findings aspire to shape public health policies by emphasizing the crucial role of vaccinations in our fight against the pandemic.
 
 ## Overview
@@ -25,13 +29,15 @@ The implementation of the Multivariate Linear Regression (MLR) method involves t
 
 📊 **Exploratory Data Analysis (EDA):** This phase involved delving deep into variable distributions, discerning relationships, and identifying potential outliers to build a comprehensive understanding of our data.
 
-The plots shown below help to understand the trends of cases, hospitalizations, and deaths in the pre-vaccination data set:
+#### The plots shown below help to understand the trends of cases, hospitalizations, and deaths in the pre-vaccination data set:
+
+![Pre Vaccination Trends](images/Pre Vaccination Trends.jpg)
 
 A discernible trend is evident in the pre-vaccination data set: as the days progress, there is a marked increase in the number of cases, hospitalizations, and deaths.
 
+#### The plots shown below help to understand the trends of cases, hospitalizations, and deaths in the vaccination data set:
 
-The plots shown below help to understand the trends of cases, hospitalizations, and deaths in the vaccination data set:
-
+![Vaccination Trends](images/Vaccination Trends.jpg)
 
 In the vaccination data set, there is a conspicuous decline in the number of cases, hospitalizations, and deaths as the days unfold.
 
@@ -57,6 +63,8 @@ Employed __Multivariate Linear Regression__ to analyze relationships between COV
 
 #### Visualizations of the impact of multiple variables in the pre-vaccination Multivariate Linear Regression model
 
+![Pre Vaccination Model Results](images/Pre Vaccination Model Results].jpg)
+
 For the pre-vaccination data, the forest plots offer a visual representation of various factors and their associations with Covid-19 cases, deaths, and hospitalizations.
 
 ## Vaccination Period Analysis
@@ -71,6 +79,8 @@ Extended the multivariate regression analysis to capture the dynamics post-vacci
 -	Testing rates remained pivotal in affecting case numbers, even post-vaccination.
 
 #### Visualizations of the impact of multiple variables in the vaccination Multivariate Linear Regression model
+
+![Pre Vaccination Model Results](images/Pre Vaccination Model Results].jpg)
 
 For the vaccination data, the below forest plots offer a visual representation of various factors and their associations with Covid-19 cases, deaths, and hospitalizations.
 
@@ -111,7 +121,9 @@ Each of these files serves a unique purpose in unravelling the intricate dynamic
 ## Authors and References
 
 👥 **Authors**: 
+
 Vinothini Balasubramani/22202390 (vinothinibs09@gmail.com)
+
 Sreelekshmi Girijadevi Purushothaman/22200034 (sreelekshmi97@gmail.com)
 
 📚 **References**:  
@@ -128,9 +140,6 @@ Key academic sources and datasets used in the analysis are referenced for furthe
 
 6. Dataset source: Google - [Covid19 Open Data](https://storage.googleapis.com/covid19-open-data/v3/location/GB.csv)
 
-
-
 <div align="center">
   <hr style="border: none; height: 1px; background-color: #ccc; width: 50%; margin-top: 40px; margin-bottom: 40px;">
 </div>
-
