@@ -21,9 +21,9 @@ Our endeavor to understand the profound impact of COVID-19 vaccinations in the U
 
 The implementation of the Multivariate Linear Regression (MLR) method involves the following steps:
 
--🔍 **Data Preprocessing**: Beyond the initial multicollinearity assessment, we meticulously managed missing data, cleaned our datasets, and ensured their uniformity.
+🔍 **Data Preprocessing**: Beyond the initial multicollinearity assessment, we meticulously managed missing data, cleaned our datasets, and ensured their uniformity.
 
--📊 **Exploratory Data Analysis (EDA):** This phase involved delving deep into variable distributions, discerning relationships, and identifying potential outliers to build a comprehensive understanding of our data.
+📊 **Exploratory Data Analysis (EDA):** This phase involved delving deep into variable distributions, discerning relationships, and identifying potential outliers to build a comprehensive understanding of our data.
 
 The plots shown below help to understand the trends of cases, hospitalizations, and deaths in the pre-vaccination data set:
 
@@ -35,11 +35,11 @@ The plots shown below help to understand the trends of cases, hospitalizations, 
 
 In the vaccination data set, there is a conspicuous decline in the number of cases, hospitalizations, and deaths as the days unfold.
 
-- 🧱**Model Building:** Harnessing the power of MLR, we constructed models for both pre-vaccination and vaccination periods, aiming to capture the multifaceted influences on infection rates, hospitalizations, and fatalities.
+🧱**Model Building:** Harnessing the power of MLR, we constructed models for both pre-vaccination and vaccination periods, aiming to capture the multifaceted influences on infection rates, hospitalizations, and fatalities.
 
-- ✅**Model Evaluation:** Our models were put to the test. We gauged their efficacy using metrics like R-squared and employed cross-validation techniques for a holistic assessment.
+✅**Model Evaluation:** Our models were put to the test. We gauged their efficacy using metrics like R-squared and employed cross-validation techniques for a holistic assessment.
 
-- 📑**Comparison Analysis:** A comparative study between our models allowed us to discern the tangible impacts of vaccination campaigns, providing clarity on its role amidst other influencing factors.
+📑**Comparison Analysis:** A comparative study between our models allowed us to discern the tangible impacts of vaccination campaigns, providing clarity on its role amidst other influencing factors.
 
 The analytical might of MLR, combined with our structured approach and diligent data pre-processing, offered invaluable insights into the pandemic's dynamics, showcasing the multifaceted dimensions of the pandemic in the UK.
 
@@ -60,6 +60,7 @@ Employed __Multivariate Linear Regression__ to analyze relationships between COV
 For the pre-vaccination data, the forest plots offer a visual representation of various factors and their associations with Covid-19 cases, deaths, and hospitalizations.
 
 ## Vaccination Period Analysis
+
 Extended the multivariate regression analysis to capture the dynamics post-vaccination.
 
 📈**Performance:** Demonstrated an improved Mean Squared Error of 0.0702 on test data with R-squared values consistently over 0.80.The Root Mean Squared Error (RMSE) obtained is 0.2692. The model's performance on the vaccination data is even better than its performance on the pre-vaccination data. This is evident from the improved (lower) error metrics (both MSE and RMSE) and the consistently high R<sup>2</sup> values. The improvements suggest that the model is more accurate in predicting outcomes during the vaccination period compared to the pre-vaccination period.
@@ -78,9 +79,13 @@ For the vaccination data, the below forest plots offer a visual representation o
 🏁 **Implications**: In our extensive analysis of COVID-19 dynamics and vaccination impact, several pivotal insights surfaced:
 
 i) Testing remains paramount in understanding the pandemic's trajectory, with a direct correlation seen across essential metrics.
+
 ii) Vaccination emerged as a crucial mitigator, with data overwhelmingly supporting its effectiveness in curbing the virus's devastation.
+
 iii) Mobility, particularly in public spaces, significantly influences the spread, suggesting the importance of monitoring and managing public movements.
+
 iv) Stringency measures by governments, though effective to an extent, yield optimal results when synergized with a robust vaccination drive.
+
 v) Weather, intriguingly, has its indirect yet noteworthy influence, with warmer climates showing a promising correlation with diminished infections.
 
 In essence, the investigation underscores the importance of a multi-pronged approach to Covid-19 control, where testing, vaccination, controlled mobility, stringent government measures, and an understanding of weather interplays are vital in steering us towards a safer tomorrow.
