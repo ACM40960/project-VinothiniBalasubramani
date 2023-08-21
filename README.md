@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="Images/Header.jpg" alt="Title" width="950" height="250">
+    <img src="Images/Header.jpg" alt="Title" width="950" height="225">
 </div>
 <br>
 
@@ -16,7 +16,7 @@ In the tumultuous climate of the COVID-19 pandemic, nations globally faced unpar
 
 ## Data Exploration
 
-🗄️**Data Source**: Our principal dataset for this investigation is acquired from Google's extensive open data collection, which chronicles COVID-19 details for a plethora of nations. For our study, we focused on extracting data pertinent to the UK, delving into its unique COVID-19 landscape. This rich dataset encapsulates a wide array of variables, including but not limited to confirmed cases, mortality rates, testing frequencies, hospitalization statistics, vaccination data, mobility trends, meteorological metrics, and the government's stringency index. The comprehensive nature of this data repository offers us an unparalleled window into the multifaceted dynamics of COVID-19, enriching the analytical depth of our project.
+🗄️ **Data Source**: Our principal dataset for this investigation is acquired from Google's extensive open data collection, which chronicles COVID-19 details for a plethora of nations. For our study, we focused on extracting data pertinent to the UK, delving into its unique COVID-19 landscape. This rich dataset encapsulates a wide array of variables, including but not limited to confirmed cases, mortality rates, testing frequencies, hospitalization statistics, vaccination data, mobility trends, meteorological metrics, and the government's stringency index. The comprehensive nature of this data repository offers us an unparalleled window into the multifaceted dynamics of COVID-19, enriching the analytical depth of our project.
 
 ✂️ **Data Segmentation**: Our analysis segregates the data timeline into two pivotal eras - the _pre-vaccination_ and the _vaccination stages_. This bifurcation aids in a granular examination of various influencers like testing frequencies, mobility trajectories, stringency policies, and meteorological patterns across these two distinct phases. As we transition into the vaccination epoch, our scrutiny deepens to encapsulate the direct repercussions of vaccination on the metrics of confirmed cases, fatalities, and hospitalizations. 
 
@@ -42,11 +42,11 @@ A discernible trend is evident in the pre-vaccination data set: as the days prog
 
 In the vaccination data set, there is a conspicuous decline in the number of cases, hospitalizations, and deaths as the days unfold.
 
-🧱**Model Building:** Harnessing the power of MLR, we constructed models for both pre-vaccination and vaccination periods, aiming to capture the multifaceted influences on infection rates, hospitalizations, and fatalities.
+🧱 **Model Building:** Harnessing the power of MLR, we constructed models for both pre-vaccination and vaccination periods, aiming to capture the multifaceted influences on infection rates, hospitalizations, and fatalities.
 
-✅**Model Evaluation:** Our models were put to the test. We gauged their efficacy using metrics like R-squared and employed cross-validation techniques for a holistic assessment.
+✅ **Model Evaluation:** Our models were put to the test. We gauged their efficacy using metrics like R-squared and employed cross-validation techniques for a holistic assessment.
 
-📑**Comparison Analysis:** A comparative study between our models allowed us to discern the tangible impacts of vaccination campaigns, providing clarity on its role amidst other influencing factors.
+📑 **Comparison Analysis:** A comparative study between our models allowed us to discern the tangible impacts of vaccination campaigns, providing clarity on its role amidst other influencing factors.
 
 The analytical might of MLR, combined with our structured approach and diligent data pre-processing, offered invaluable insights into the pandemic's dynamics, showcasing the multifaceted dimensions of the pandemic in the UK.
 
@@ -54,9 +54,9 @@ The analytical might of MLR, combined with our structured approach and diligent 
 
 Employed __Multivariate Linear Regression__ to analyze relationships between COVID-19 outcomes and various predictors including testing rates, mobility patterns, weather metrics, and the stringency index.
 
-📈**Performance:** Achieved a Mean Squared Error of 0.102 on test data with an R-squared value of approximately 0.80 or higher for each response. The Root Mean Squared Error (RMSE) obtained is 0.3207. Thus, the model seems to perform well on the pre-vaccination data, as indicated by a high R<sup>2</sup> value and relatively low error metrics (MSE and RMSE).  The high R<sup>2</sup> value indicates that the model explains a significant amount of variance in the data.
+📈 **Performance:** Achieved a Mean Squared Error of 0.102 on test data with an R-squared value of approximately 0.80 or higher for each response. The Root Mean Squared Error (RMSE) obtained is 0.3207. Thus, the model seems to perform well on the pre-vaccination data, as indicated by a high R<sup>2</sup> value and relatively low error metrics (MSE and RMSE).  The high R<sup>2</sup> value indicates that the model explains a significant amount of variance in the data.
 
-🗝️**Key Findings:**
+🗝️ **Key Findings:**
 
 -	Strong positive correlation between cumulative tests and confirmed cases, deceased cases, and hospitalized patients.
 -	Higher stringency index values correlated with an increase in cases.
@@ -72,9 +72,9 @@ For the pre-vaccination data, the forest plots offer a visual representation of 
 
 Extended the multivariate regression analysis to capture the dynamics post-vaccination.
 
-📈**Performance:** Demonstrated an improved Mean Squared Error of 0.0702 on test data with R-squared values consistently over 0.80.The Root Mean Squared Error (RMSE) obtained is 0.2692. The model's performance on the vaccination data is even better than its performance on the pre-vaccination data. This is evident from the improved (lower) error metrics (both MSE and RMSE) and the consistently high R<sup>2</sup> values. The improvements suggest that the model is more accurate in predicting outcomes during the vaccination period compared to the pre-vaccination period.
+📈 **Performance:** Demonstrated an improved Mean Squared Error of 0.0702 on test data with R-squared values consistently over 0.80.The Root Mean Squared Error (RMSE) obtained is 0.2692. The model's performance on the vaccination data is even better than its performance on the pre-vaccination data. This is evident from the improved (lower) error metrics (both MSE and RMSE) and the consistently high R<sup>2</sup> values. The improvements suggest that the model is more accurate in predicting outcomes during the vaccination period compared to the pre-vaccination period.
 
-🗝️**Key Findings:**
+🗝️ **Key Findings:**
 -	Significant negative correlation between the number of vaccinated individuals and infection cases, deceased cases, and hospitalizations.
 -	Decline in transit station activity correlated with reduced cases and hospitalizations.
 -	Testing rates remained pivotal in affecting case numbers, even post-vaccination.
