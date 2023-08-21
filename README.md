@@ -1,6 +1,7 @@
 <div align="center">
-    <img src="Images/Header.jpg" alt="Title" width="300">
+    <img src="Images/Header.jpg" alt="Title" width="900">
 </div>
+
 
 In the tumultuous climate of the **COVID-19** pandemic, nations globally faced unparalleled public health trials, with the UK standing out as one of the most significantly affected. This project seeks to deeply investigate the palpable effects of the vaccination campaign on COVID-19 metrics like infections, hospitalizations, and mortality rates in the UK. Through multivariate linear regression analyses of data spanning pre-vaccination and vaccination periods, we aim to unravel the real-world efficacy of vaccines while accounting for other external influences like human mobility and weather patterns. Our findings aspire to shape public health policies by emphasizing the crucial role of vaccinations in our fight against the pandemic.
 
