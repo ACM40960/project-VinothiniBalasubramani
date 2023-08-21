@@ -1,8 +1,9 @@
 <div align="center">
-    <img src="Images/Header.jpg" alt="Title" width="700" height="200">
+    <img src="Images/Header.jpg" alt="Title" width="750" height="150">
 </div>
 <br>
-In the tumultuous climate of the **COVID-19** pandemic, nations globally faced unparalleled public health trials, with the UK standing out as one of the most significantly affected. This project seeks to deeply investigate the palpable effects of the vaccination campaign on COVID-19 metrics like infections, hospitalizations, and mortality rates in the UK. Through multivariate linear regression analyses of data spanning pre-vaccination and vaccination periods, we aim to unravel the real-world efficacy of vaccines while accounting for other external influences like human mobility and weather patterns. Our findings aspire to shape public health policies by emphasizing the crucial role of vaccinations in our fight against the pandemic.
+
+In the tumultuous climate of the COVID-19 pandemic, nations globally faced unparalleled public health trials, with the UK standing out as one of the most significantly affected. This project seeks to deeply investigate the palpable effects of the vaccination campaign on COVID-19 metrics like infections, hospitalizations, and mortality rates in the UK. Through multivariate linear regression analyses of data spanning pre-vaccination and vaccination periods, we aim to unravel the real-world efficacy of vaccines while accounting for other external influences like human mobility and weather patterns. Our findings aspire to shape public health policies by emphasizing the crucial role of vaccinations in our fight against the pandemic.
 
 ## Overview
 
@@ -63,7 +64,7 @@ Employed __Multivariate Linear Regression__ to analyze relationships between COV
 
 #### Visualizations of the impact of multiple variables in the pre-vaccination Multivariate Linear Regression model
 
-![Pre Vaccination Model Results](Images/Pre%20Vaccination%20Model%20Results].jpg)
+![Pre Vaccination Model Results](Images/Pre%20Vaccination%20Model%20Results.jpg)
 
 For the pre-vaccination data, the forest plots offer a visual representation of various factors and their associations with Covid-19 cases, deaths, and hospitalizations.
 
@@ -80,7 +81,7 @@ Extended the multivariate regression analysis to capture the dynamics post-vacci
 
 #### Visualizations of the impact of multiple variables in the vaccination Multivariate Linear Regression model
 
-![Pre Vaccination Model Results](Images/Pre%20Vaccination%20Model%20Results].jpg)
+![Pre Vaccination Model Results](Images/Pre%20Vaccination%20Model%20Results.jpg)
 
 For the vaccination data, the below forest plots offer a visual representation of various factors and their associations with Covid-19 cases, deaths, and hospitalizations.
 
